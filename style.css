@@ -1,0 +1,319 @@
+body {
+ font-family: 'Poppins', sans-serif;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ background-color: #F8F9FB;
+}
+
+
+.header{
+  background-color: rgba(23,63,95,0.9);
+  color: white;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float:left;
+  font-size: 30px;
+  padding: 10px 10px;
+  max-width: 30%; 
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+.header-list li{
+  float: left;
+  padding: 0 30px;
+
+}
+.header-list li:hover{
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.header-right{
+  float: right;
+  background-color: rgba(255, 255, 255, 0.295);
+  transition: all 0,5s;
+  margin: 0;
+  height: 100%;
+}
+
+.header-right a{
+  display:block;
+  line-height: 50px;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  padding:  0 20px;
+
+}
+.header-right a:hover{
+  font-size:16px;
+}
+
+nav ul{
+ list-style: none;
+ padding-right: 30px; 
+}
+
+nav ul li{
+ float: right;
+ line-height: 65px;
+ width: 6%;
+}
+
+main {
+ overflow: auto;
+}
+
+footer {
+ color: white;
+ background-color: #173F5F;
+ height: 100px;
+ text-align: center;
+ font-weight: bold;
+}
+
+h2 {
+ color: #173F5F;
+ text-align: center;
+ margin: 0px;
+}
+
+h3 {
+ color: #173F5F;
+}
+
+h5 {
+ color: #b8b8b8;
+ font-weight: normal;
+}
+
+#content {
+ width: 100%;
+ float: left;
+ margin-top: 20px;
+}
+
+#content table {
+ padding-bottom: 20px;
+}
+
+.title-team {
+ border-bottom: 1px solid #c9c5c5;
+ width: 210px;
+ margin: 0 auto;
+}
+
+.additional-content {
+}
+
+.team {
+ display: flex;
+}
+
+.staff {
+ margin: 30px auto;
+}
+
+.staff:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.team-text {
+ text-align: center;
+}
+
+.team-text p {
+ color: #c9c5c5;
+ font-size: 16px;
+}
+
+.newsletter-container {
+ width: 100%;
+ background-color: #20639B;
+ height: 250px;
+ display: flex;
+}
+
+.newsletter-text {
+ width: 30%;
+ margin: auto 1%;
+ color: white;
+}
+
+.newsletter {
+  width: 67%;
+  float: right;
+  max-height: 80px;
+  margin: auto 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-radius: 5px;
+  top: 10px;
+  background-color: white;
+}
+
+.newsletter > input {
+  width: 75%;
+  padding: 16px;
+  border: 0;
+  border-bottom: 1px solid cornflowerblue;
+  font-weight: bold;
+}
+
+.newsletter > input:focus {
+  outline: 0;
+  border-bottom: 2px solid cornflowerblue;
+}
+
+.newsletter > input:focus::placeholder {
+  font-weight: bold;
+}
+
+.newsletter >  input::placeholder {
+  color: cornflowerblue;
+  font-weight: normal;
+}
+
+.newsletter > button {
+  width: 23%;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 16px;
+  background-color: #20639B;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.featured-image {
+ max-width: 100%;
+ max-height: 300px;
+ object-fit: cover;
+ object-position: center;
+ margin-top: 20px;
+}
+
+* {
+ box-sizing: border-box;
+ padding: 0px;
+ margin: 0px;
+}
+
+.judul {
+ float: left;
+ max-width: 30%; 
+ margin-left: 20px;
+ font-size: 30px; 
+ font-weight: lighter;
+}
+
+.judul a {
+ line-height: 65px;
+ text-decoration: none;
+ color: #FFF;
+}
+
+
+.footer-logo{
+  float:left;
+  padding: 30px 20px; 
+}
+
+.footer-list{
+  float: right;
+
+}
+.footer-list li{
+  padding : 5px 20px;
+}
+
+li{
+  list-style: none;
+
+}
+
+@media screen and (max-width: 1000px) {
+ header, main, #content {
+  width: 100%;
+  padding: 0px;
+  float: none;
+}
+
+main {
+ padding-top: 0px;
+}
+
+.team {
+ flex-direction: column;
+}
+
+.newsletter-container {
+ flex-direction: column;
+ width: 100%;
+ height: 230px;
+}
+
+.newsletter-text {
+ width: 100%;
+ margin: 10px 10px;
+}
+
+.newsletter {
+ width: 90%;
+ padding: : 0;
+ margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+ font-size: 20px;
+}
+
+h3 {
+ font-size: 16px;
+}
+
+nav {
+ width: 100%;
+}
+
+nav ul {
+ width: 100%;
+ padding-right: 0px;
+}
+
+nav ul li {
+ width: 15%;
+ font-size: 12px;
+ float: right;
+ padding-top: 18px;
+}
+
+nav ul li a {
+ width: 100%;
+}
+
+nav ul li a:hover{
+ background-color: transparent;
+}
+
+.judul {
+ margin-left: 10px;
+}
+
+.judul a {
+ font-size: 20px;
+}
+}
