@@ -3,74 +3,141 @@
 <title>J24Travel</title>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<header>
 		<nav>
-			<div class="header">
-				<div class="header-logo"><a href="index.html" style="text-decoration: none; color: white;"><b>J24</b>Travel</a></div>
-				<div class="header-right">
-					<a class="login" href=#>Login</a>
+			<ul>
+				<div class="judul">
+					<a href="index.html"><b>J24</b>Travel</a></li>
 				</div>
-				<div class="header-list">
-					<ul>
-						<li>Tour</li>
-						<li>Package</li>
-						<li>Contact us</li>
-					</ul>
-				</div>   
-			</nav>
-		</header>
-		<main style="margin-top: 50px">
-			<div id="content">
-				<div class="additional-content">
-					<div><h2 class="title-team">Tim J24Travel</h2></div>
-					<div class="team">
-						<div class="staff">
-							<div><img src="man.png" width="250px" height="250px"></div>
-							<div class="team-text">
-								<h3>Zainal Abidin</h3>
-								<p>123456</p>
-							</div>
-						</div>
-						<div class="staff">
-							<div><img src="man.png" width="250px" height="250px"></div>
-							<div class="team-text">
-								<h3>Zainal Abidin</h3>
-								<p>123456</p>
-							</div>
-						</div>
-						<div class="staff">
-							<div><img src="man.png" width="250px" height="250px"></div>
-							<div class="team-text">
-								<h3>Zainal Abidin</h3>
-								<p>123456</p>
-							</div>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#teams">Teams</a></li>
+				<li><a href="#services">Services</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="top-wrapper">
+			<div class="container">
+				<h1>PILIHAN MUDAH</h1>
+				<h1>MENCARI TEMAN BERMAIN</h1>
+				<div class="btn-wrapper">
+					<a href="#" class="btn signup">PESAN SEKARANG</a>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div class="paket" id="#services">
+				<div class="card">
+					<div class="card-header" id="gunung">
+						<h1>GUNUNG</h1>
+					</div>
+					<div class="row">
+						<article>
+							<center><img src="gunung3.jpg" class="featured-image"  alt="sejarah"></center>
+							<h2>Semeru</h2>
+							<h5>04-08 Mei 2016</h5>
+						</article>
+					</div>
+					<center>
+						<a href="#"><button class="btn loadmore" onclick="return alert('Belum ada data!!!')">SELENGKAPNYA</button></a>
+					</center>
+				</div>
+				<div class="card">
+					<div class="card-header" id="gunung">
+						<h1>PANTAI</h1>
+					</div>
+					<div class="row">
+						<article>
+							<center><img src="pantai1.jpg" class="featured-image"  alt="sejarah"></center>
+							<h2>Pantai Goa Cina</h2>
+							<h5>04-08 Mei 2016</h5>
+						</article>
+					</div>
+					<center>
+						<a href="#"><button class="btn loadmore" onclick="return alert('Belum ada data!!!')">SELENGKAPNYA</button></a>
+					</center>
+				</div>
+				<div class="card">
+					<div class="card-header" id="gunung">
+						<h1>AIR TERJUN</h1>
+					</div>
+					<div class="row">
+						<article>
+							<center><img src="airterjun.jpg" class="featured-image"  alt="sejarah"></center>
+							<h2>Tumpak Sewu</h2>
+							<h5>04-08 Mei 2016</h5>
+						</article>
+					</div>
+					<center>
+						<a href="#"><button class="btn loadmore" onclick="return alert('Belum ada data!!!')">SELENGKAPNYA</button></a>
+					</center>
+				</div>
+			</div>
+			<div class="additional-content" id="teams">
+				<div><h2 class="title-team">Tim J24Travel</h2></div>
+				<div class="team">
+					<div class="staff">
+						<div><img src="man.png" width="250px" height="250px"></div>
+						<div class="team-text">
+							<h3>Zainal Abidin</h3>
+							<p>0447971151-80</p>
 						</div>
 					</div>
-				</div>
-				<div class="newsletter-container">
-					<div class="newsletter-text">
-						<h1>Ingin Selalu Mendapat Informasi?</h1>
+					<div class="staff">
+						<div><img src="man.png" width="250px" height="250px"></div>
+						<div class="team-text">
+							<h3>Uni Fardila</h3>
+							<p>123456</p>
+						</div>
 					</div>
-					<div class="newsletter">
-						<input type="text" placeholder="Email">
-						<button onclick="alert('Silakan Tunggu')">Kirim</button>
+					<div class="staff">
+						<div><img src="man.png" width="250px" height="250px"></div>
+						<div class="team-text">
+							<h3>Yuda</h3>
+							<p>123456</p>
+						</div>
+					</div>
+					<div class="staff">
+						<div><img src="man.png" width="250px" height="250px"></div>
+						<div class="team-text">
+							<h3>Yustina Orchidtya</h3>
+							<p>123456</p>
+						</div>
+					</div>
+					<div class="staff">
+						<div><img src="man.png" width="250px" height="250px"></div>
+						<div class="team-text">
+							<h3>Yunita Dwi</h3>
+							<p>123456</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</main>
-		<footer>
-			<div class="footer-logo">J24 Travel</div>
-			<div div class="footer-list">
-				<ul>
-					<li>Tentang</li>
-					<li>Karir</li>
-					<li>Contact us</li>
-				</ul>
-			</div>         
-		</footer>  
-	</body>
-	</html>
+			<div class="newsletter-container" id="contact">
+				<div class="newsletter-text">
+					<h1>Ingin Selalu Mendapat Informasi?</h1>
+				</div>
+				<div class="newsletter">
+					<input type="text" placeholder="Email">
+					<button onclick="alert('Silakan Tunggu')">Kirim</button>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="footer-logo">J24 Travel</div>
+		<div div class="footer-list">
+			<ul>
+				<li>Tentang</li>
+				<li>Karir</li>
+				<li>Contact us</li>
+			</ul>
+		</div>         
+	</footer>  
+</body>
+</html>
 
